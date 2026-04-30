@@ -60,7 +60,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <a
-                  href="/privacy-policy.html"
+                  href="https://wbauman6.github.io/lingerapplegal/privacy-policy.html"
                   className="text-muted-foreground transition-colors hover:text-coral"
                 >
                   Privacy Policy
@@ -68,7 +68,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="/terms-of-service.html"
+                  href="https://wbauman6.github.io/lingerapplegal/terms-of-service.html"
                   className="text-muted-foreground transition-colors hover:text-coral"
                 >
                   Terms of Service
