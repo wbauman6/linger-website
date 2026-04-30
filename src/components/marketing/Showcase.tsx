@@ -32,8 +32,8 @@ export function Showcase() {
             className="md:-translate-y-4"
           />
           <PhoneMockup
-            src="https://images.unsplash.com/photo-1525160354320-d8e92641c563?w=600&h=1300&fit=crop"
-            alt="Linger memory with friends"
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=1300&fit=crop"
+            alt="Friends on vacation at the beach"
             rotate={6}
             className="md:translate-y-6"
           />
