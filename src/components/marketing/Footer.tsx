@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { AppStoreBadge } from "./AppStoreBadge";
 
 export function Footer() {
@@ -59,20 +60,20 @@ export function Footer() {
             </h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a
-                  href="/privacy-policy.html"
+                <Link
+                  to="/privacy-policy"
                   className="text-muted-foreground transition-colors hover:text-coral"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/terms-of-service.html"
+                <Link
+                  to="/terms-of-service"
                   className="text-muted-foreground transition-colors hover:text-coral"
                 >
                   Terms of Service
-                </a>
+                </Link>
               </li>
               <li>
                 <a

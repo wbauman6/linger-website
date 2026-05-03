@@ -1,5 +1,6 @@
 import { Polaroid } from "./Polaroid";
 import { AppStoreBadge } from "./AppStoreBadge";
+import { SiteNav } from "./SiteNav";
 
 export function Hero() {
   return (
@@ -11,22 +12,7 @@ export function Hero() {
       </div>
 
       {/* Top brand bar */}
-      <header className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 pt-8 sm:pt-10">
-        <a href="#" className="flex items-center gap-2">
-          <span className="font-serif text-2xl font-semibold tracking-tight text-white">
-            Linger
-          </span>
-          <span className="hidden text-xs uppercase tracking-[0.2em] text-muted-foreground sm:inline">
-            Memory App
-          </span>
-        </a>
-        <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
-          <a href="#features" className="transition-colors hover:text-cream">Features</a>
-          <a href="#showcase" className="transition-colors hover:text-cream">Preview</a>
-          <a href="#plus" className="transition-colors hover:text-cream">Plus</a>
-          <a href="#faq" className="transition-colors hover:text-cream">FAQ</a>
-        </nav>
-      </header>
+      <SiteNav homeLink="#" />
 
       <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 px-6 pb-24 pt-16 sm:pt-24 lg:grid-cols-12 lg:gap-8 lg:pb-32 lg:pt-28">
         {/* Copy */}
